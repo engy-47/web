@@ -1,0 +1,208 @@
+:root {
+  --bg-light: #ffffff;
+  --text-light: #333;
+  --navbar-light: #f8f9fa;
+  --border-light: #ddd;
+
+  --bg-dark: #1c1c1c;
+  --text-dark: #f8f9fa;
+  --navbar-dark: #333;
+  --border-dark: #444;
+}
+
+
+.dark-mode {
+  background-color: #222 !important;
+  color: white !important;
+}
+
+.dark-mode body {
+  background-color: #363535!important;
+  color: white !important;
+}
+
+
+.dark-mode .main-navbar {
+  background-color: #333 !important;
+  border-bottom: 1px solid #555;
+}
+
+.dark-mode .top-navbar {
+  background-color: #393838 !important;
+  border-bottom: 1px solid #666;
+}
+.dark-mode .top-icons a:hover{
+  color: red !important;
+}
+
+
+.dark-mode a {
+  color: #ddd !important;
+}
+
+.dark-mode a:hover {
+  color: #fff !important;
+}
+
+.dark-mode button,
+.dark-mode .btn {
+  color: white !important;
+  border: none;
+}
+
+.dark-mode .search-box {
+  background-color: #333 !important;
+  color: white !important;
+  border: 1px solid #555;
+}
+
+.dark-mode .search-box::placeholder {
+  color: #bbb;
+}
+.dark-mode .icons svg {
+  color: white !important;
+}
+.dark-mode .icons svg:hover , .dark-mode .cart-badge:hover{
+  color: red !important;
+}
+.dark-mode .search-button:hover{
+  color: red !important;
+}
+.dark-mode .fs-4{
+  color: red !important;
+}
+.theme-switch {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.theme-switch .theme-icon {
+  width: 40px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.theme-switch .theme-icon:hover {
+  transform: scale(1.1);
+}
+
+.Brand{
+  color: red;
+}
+.top-navbar {
+  background-color: var(--navbar-light);
+    padding: 33px 0;
+    font-size: 10px;
+    border-bottom: 1px solid var(--border-light);
+    position: fixed;
+    width: 100%;
+    top: -45px;
+    left: 0px;
+    z-index: 1000;
+}
+.top-icons a{
+  color: #444;
+}
+.top-icons a:hover{
+  color: red;
+}
+.fs-4{
+  color: red !important ;
+}
+Nav.Link:hover{
+  color: red;
+}
+
+.main-navbar {
+  margin-top: 45px;
+  z-index: 999;
+  background-color: var(--bg-light) !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-navbar .icons a {
+  font-size: 18px;
+  color: var(--text-light);
+  margin-left: 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.main-navbar .icons a:hover {
+  color: red;
+}
+
+.dark-mode .main-navbar .icons a {
+  color: var(--text-dark);
+}
+
+.dark-mode .main-navbar .icons a:hover {
+  color: red;
+}
+
+.theme-switch button {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.theme-switch button:hover {
+  transform: scale(1.1);
+}
+.search-box {
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  padding: 6px 15px;
+  width: 200px;
+  transition: width 0.3s ease-in-out;
+}
+.search-button{
+  border: none;
+  background: none;
+}
+.search-button:hover{
+  color: red;
+}
+
+.search-box:focus {
+  width: 280px;
+  border-color: #ff6600;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .top-navbar {
+    text-align: center;
+  }
+
+  .main-navbar {
+    padding: 10px;
+  }
+
+  .main-navbar .navbar-toggler {
+    border: none;
+  }
+
+  .main-navbar .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+.theme-switch button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.theme-switch .theme-icon {
+  width: 40px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.theme-switch button:hover .theme-icon {
+  transform: scale(1.1);
+}
+
