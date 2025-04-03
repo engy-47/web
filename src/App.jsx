@@ -4,7 +4,7 @@ import Contact from "./Component/Contact/Contact";
 import Products from "./Component/Products/Products";
 import Product from "./Component/Products/Product";
 import Navbar from "./Component/Navbar/Navbar";
-import Login from "./Component/login/login"; 
+import Login from "./Component/login/login "; 
 import Compare from "./Component/Compare/Compare";
 import Wishlist from "./Component/Wishlist/Wishlist";
 import Footer from "./Component/footer/Footer";
