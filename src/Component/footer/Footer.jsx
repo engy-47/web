@@ -46,11 +46,11 @@ const FooterComponent = () => {
             <Col md={3} sm={6}>
               <h5>Category</h5>
               <ul>
-                <li><a href="/products">All</a></li>
-                <li><a href="/products">Men</a></li>
-                <li><a href="/products">Women</a></li>
-                <li><a href="/products">Jewelry</a></li>
-                <li><a href="/products">Electronics</a></li>
+                <li><a href="/">All</a></li>
+                <li><a href="/">Men</a></li>
+                <li><a href="/">Women</a></li>
+                <li><a href="/">Jewelry</a></li>
+                <li><a href="/">Electronics</a></li>
               </ul>
             </Col>
             <Col md={3} sm={6}>
